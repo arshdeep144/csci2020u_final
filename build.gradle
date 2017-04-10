@@ -1,0 +1,42 @@
+group 'csci2020ufinalProject'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+sourceSets{
+   main{
+	java	{
+		srcDirs=['src']
+		}
+	resources{
+		srcDirs=['resources']
+		}
+	}
+
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.commons:commons-csv:1.4'
+
+  }
+
+
+
+
+task runClient(type:JavaExec) {
+   classpath = sourceSets.main.runtimeClasspath
+   main = 'Client.Login'
+}
+
+task runServer(type:JavaExec) {
+
+   classpath = sourceSets.main.runtimeClasspath
+   main = 'Server.Server'
+}

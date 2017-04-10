@@ -1,0 +1,14 @@
+.button {
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#1276B2, #041E2D);
+    -transition: 0s 10s;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#041E2D, #1276B2);
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(#0A5715, #17D331);
+    -transition-delay: 5s;
+}

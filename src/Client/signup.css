@@ -1,0 +1,14 @@
+/**
+*Created bby Arshdeep Benipal on 09/04/17
+**/
+#root{
+    -fx-background-color:  linear-gradient(lightgray, gray);
+    -fx-border-color: white;
+}
+#btn{
+    -fx-background-color: linear-gradient(orange, orangered);
+}
+
+#text{
+        -fx-background-color: linear-gradient(orange, orangered);
+}

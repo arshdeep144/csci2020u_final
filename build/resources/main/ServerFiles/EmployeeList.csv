@@ -1,0 +1,5 @@
+role,ID,Name,Sex,phone number,email,profile picture,taskList,password
+IT,1,Mike,male,1461535,michael.setnyk@uoit.net,resources/LocalImages/20141031_GAMDIAS_LOGO.png,TaskList/1.csv,123,
+Accounting,2,Steph,female,14354,stephPhung@yahoogmailgoogle.com,resources/LocalImages/basicProfilePic.jpg,TaskList/2.csv,pWord,
+Manager,3,Randy,male,1313,123,resources/LocalImages/3e5e931d91ea016a26a9dbf13cad5962.jpg,TaskList/3.csv,123,
+Unassigned,4,gfg,male,f,12132,resources/LocalImages/basicProfilePic.jpg,TaskList/4.csv,1
